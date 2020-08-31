@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.intro {
+  height: 100vh;
+  width: 100%;
+}
+
+.intro video {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.intro h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  text-shadow: 0px 3px 5px #000000, 3px 3px 5px #fefefe;
+  /* filter: drop-shadow(0px 0px 10px #ffffff); */
+}
+
+section {
+  position: relative;
+  height: 100vh;
+}
+
+section h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 5rem;
+  transform: translate(-50%, -50%);
+  text-shadow: 0px 3px 5px #ffffff, 3px 3px 5px #000000;
+}
